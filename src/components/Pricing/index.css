@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.maincontainer{
+    font-family: 'Nunito', 
+    sans-serif;
+    font-weight: 600;
+}
+.titl{
+    font-weight: 600;
+}
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  .text-small {
+    font-size: 1.1rem !important;
+  }
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+   
+  }
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+.para {
+    font-size: 22px;
+  }
+.HJD {
+    color: #44B78B;
+    text-decoration: underline;
+}

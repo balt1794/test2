@@ -1,0 +1,11 @@
+
+.logo-brand{
+    transition: all 0.2s ease;
+
+}
+
+.logo-brand:hover{
+    transform: scale(1.1);
+}
+
+
