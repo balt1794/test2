@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({ origin: '*' }));
 
 
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://main.d2clyjp5n19az4.amplifyapp.com';
 
 app.get("/", async (req, res) => {
   res.send('Node Server Working')
