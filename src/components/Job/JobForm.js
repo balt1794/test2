@@ -235,7 +235,7 @@ export default (props) => {
 
             localStorage.setItem("jobDetails", JSON.stringify(jobDetails));
             await axios.post(
-                 "https://main.dqqa3112ms9x4.amplifyapp.com/create-checkout-session",
+                 "https://main.d2clyjp5n19az4.amplifyapp.com/create-checkout-session",
                  { price: "test" }
              ).then((res)=>{
                  console.log(res?.data)
